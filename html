@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+            div.static{
+                width: 300px;
+                height: 100px;
+                border: 5px dotted darkviolet;
+                background-color: plum;
+            }
+            div.fixed{ position: fixed; width: 300px;
+                height: 110px;
+                border: 5px dotted blue;
+                background-color: cornflowerblue;
+                top: 210px;
+                left: 10px;}
+                
+
+            div.rel{ position: relative; width: 300px;
+                height: 110px;
+                border: 5px dotted rgb(202, 26, 114);
+                background-color: rgb(248, 126, 89);
+                top: 490px ;
+               left: 140px;
+
+            }
+             div.ab{ position: absolute; width: 300px;
+                height: 110px;
+                border: 5px dotted rgb(14, 104, 77);
+                background-color: rgb(211, 21, 53);
+                top: 520px ;
+                left: 10px;
+            
+
+            }
+            div.sticky{ position: sticky;
+                height: 150px;
+                width: 300px;
+                border: 5px dotted rgb(167, 84, 6);
+                background-color: rgb(21, 211, 69);
+                top: 600px ;
+                left: 300px;}
+        
+        
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>There are 5 kinds of positions in CSS:</h1><div class="static">
+<b>Static Position:</b>Elements with position: static are positioned based on the normal flow of the page, as you would expect them to be
+        without any CSS styling. They are not affected by the top, right, bottom, or left properties.</div>
+        <div class="fixed"><b>Fixed Position:</b>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place
+        even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.</div>
+        <div class="rel"><b>Relative Position:</b>Relative positioning changes the position of the HTML element relative to where it normally appears.We can use two values top and left along with the position property to move an HTML element anywhere in the HTML
+        document</div>
+        <div class="ab"><b>Absolute Position:</b>Absolute-positioned elements are completely taken out of the regular flow of the web page. They are not positioned based
+        on their usual place in the document flow, but based on the position of their ancestor.</div>
+        <div class="sticky"><b>Sticky Position:</b>A sticky element is positioned relative to its initial position in the HTML flow, until it crosses a threshold in the
+        viewport (in other words, the user scrolls past a certain point on the page). At that point, the element “sticks” in
+        place until it reaches the boundary of its parent element.</div></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+    
+    </body>
+</html>
